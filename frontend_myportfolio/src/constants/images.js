@@ -22,6 +22,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
 import about01 from '../assets/about01.png';
+import about05 from '../assets/about-frontend.png'
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
@@ -61,6 +62,7 @@ export default {
   about02,
   about03,
   about04,
+  about05,
   profile,
   circle,
   logo,
