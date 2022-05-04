@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './About.scss';
 import { urlFor, client } from '../../client';
-
 import { motion } from 'framer-motion';
-import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
 // const abouts = [
 //   {title: 'Frontend Development', description: 'I love mastering my frontend skills with HTML, CSS (Sass), Javscript (with React framework) in order to make the smoothest and responsive user experience.', imgUrl: images.about05},
 //   {title: 'Backend Development', description: 'I have strong foundation in C# and a good grasp of the highly efficient server-side framework ASP.NET using MVC paradigm. I care a lot about making readable, maintainable and efficient code, and I love expanding my knowledge.', imgUrl: images.about04},
@@ -41,4 +40,4 @@ const About = () => {
   );
 }
 
-export default About;
+export default AppWrap(About, 'about');
