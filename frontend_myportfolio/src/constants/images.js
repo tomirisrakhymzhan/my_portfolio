@@ -1,3 +1,6 @@
+import mylogo from '../assets/mylogo.png';
+import myprofile from '../assets/myprofile.png'
+import dotnetcore from '../assets/dot-NET-Core.png'
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -34,7 +37,6 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-
 export default {
   email,
   mobile,
@@ -69,4 +71,7 @@ export default {
   nb,
   skype,
   spotify,
+  mylogo,
+  myprofile,
+  dotnetcore,
 };
