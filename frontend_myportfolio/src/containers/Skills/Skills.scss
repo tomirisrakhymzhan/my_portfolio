@@ -140,13 +140,15 @@
 
 .app__skills-exp-expand{
     border: none;
-    background-color: var(--primary-color);
+    background-color: var(--white-color);
     margin-top: 5px;
     font-size: 0.8rem;
 
     color: var(--gray-color);
     cursor: pointer;
-
+    &:hover{
+      box-shadow: 0 0 25px var(--primary-color);  
+    }
     div{
         display:flex;
         align-items: center;
