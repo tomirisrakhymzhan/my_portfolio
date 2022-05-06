@@ -1,6 +1,7 @@
 import mylogo from '../assets/mylogo.png';
-import myprofile from '../assets/myprofile.png'
-import dotnetcore from '../assets/dot-NET-Core.png'
+import myprofile from '../assets/myprofile.png';
+import dotnetcore from '../assets/dot-NET-Core.png';
+import dotnet from '../assets/dotnet.png';
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -76,4 +77,5 @@ export default {
   mylogo,
   myprofile,
   dotnetcore,
+  dotnet,
 };
