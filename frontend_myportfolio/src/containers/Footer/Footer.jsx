@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { client } from '../../client';import './Footer.scss';
+import { client } from '../../client';
+import './Footer.scss';
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
